@@ -1,0 +1,8 @@
+C:\Users\Demay\AppData\Local\Temp\cchXNshu.o:c_dame.cpp:(.text+0xaf): undefined reference to `Piece::Piece(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+C:\Users\Demay\AppData\Local\Temp\cchXNshu.o:c_dame.cpp:(.text+0xe1): undefined reference to `Fou::Fou(bool)'
+C:\Users\Demay\AppData\Local\Temp\cchXNshu.o:c_dame.cpp:(.text+0xfd): undefined reference to `Tour::Tour(bool)'
+C:\Users\Demay\AppData\Local\Temp\cchXNshu.o:c_dame.cpp:(.text+0x1e2): undefined reference to `Piece::isValidMove(Pos, Pos, bool, Plato*)'
+C:\Users\Demay\AppData\Local\Temp\cchXNshu.o:c_dame.cpp:(.text+0x22a): undefined reference to `Tour::isValidMove(Pos, Pos, bool, Plato*)'
+C:/TDM-GCC-32/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: C:\Users\Demay\AppData\Local\Temp\cchXNshu.o: bad reloc address 0x4 in section `.text.startup'
+C:/TDM-GCC-32/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: final link failed: Invalid operation
+collect2.exe: error: ld returned 1 exit status
